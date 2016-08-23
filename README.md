@@ -5,13 +5,17 @@
 
 Gemfile作成
 ```
+$ touch volumes/Gemfile
+```
+```
+# Gemfile
 source 'https://rubygems.org'
 gem 'rails', '4.2.0'
 ```
 
 Gemfile.lock作成
 ```
-$ touch Gemfile.lock
+$ touch volumes/Gemfile.lock
 ```
 
 ビルドしてbundle install
