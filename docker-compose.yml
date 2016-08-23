@@ -1,5 +1,5 @@
 version: '2'
-serveces:
+services:
   db:
     image: postgres
   web:
