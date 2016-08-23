@@ -28,11 +28,6 @@ Railsアプリを作る
 $ docker-compose run web rails new . --force --database=postgresql --skip-bundle
 ```
 
-権限を変える
-```
-$ sudo chown -R $USER:$USER volumes/
-```
-
 Gemfileからtherubyracerを読み込む行をアンコメント
 ```
 gem 'therubyracer', platforms: :ruby
