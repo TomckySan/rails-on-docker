@@ -58,6 +58,7 @@ test:
 ```
 $ docker-compose up
 ```
+localhost:3000でアプリケーションにアクセスできる
 
 別ターミナルでデータベース作成
 ```
