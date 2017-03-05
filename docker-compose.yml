@@ -1,7 +1,9 @@
 version: '2'
 services:
-  db:
+  postgres:
     image: postgres
+    ports:
+      - "5432:5432"
   web:
     build: .
     environment:
@@ -12,4 +14,4 @@ services:
     ports:
       - "3000:3000"
     depends_on:
-      - db
+      - postgres
